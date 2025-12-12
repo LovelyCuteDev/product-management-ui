@@ -3,6 +3,9 @@ export interface User {
   email: string;
   name: string;
   role: string;
+  permissions?: string[];
+  isVerified?: boolean;
+  lastLogin?: string;
   createdAt: string;
   updatedAt: string;
 }
